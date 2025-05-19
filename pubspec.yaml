@@ -1,0 +1,43 @@
+name: expense_tracker
+description: A voice-enabled expense tracking app with Google Drive sync
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  # State Management
+  provider: ^6.1.1
+  # Database
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.2
+  sqflite_common_ffi_web: ^0.4.2
+  path: ^1.8.3
+  # Google Drive Integration
+  google_sign_in: ^6.1.6
+  googleapis: ^13.1.0
+  # Excel handling
+  excel: ^4.0.6
+  # Charts and Graphs
+  fl_chart: ^0.71.0
+  # Date formatting
+  intl: ^0.20.2
+  # File handling
+  path_provider: ^2.1.1
+  permission_handler: ^11.1.0
+  # UI Components
+  google_fonts: ^6.1.0
+  flutter_slidable: ^3.0.1
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true 
